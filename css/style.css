@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Rock+Salt&display=swap');
+
+:root{
+	--color-hover-menu:#F39B9A;
+	--color-rosa:#F39B9A;
+	--color-titulos:#303030
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #888 
+}
+header{
+	background-color: #000;
+}
+
+.navbar-nav .nav-link.btn-primary{
+	background-color: var(--color-hover-menu);
+	color: #FFFFFF;
+	font-weight: 600 !important;
+	border: 0;
+	padding: 10px 20px;
+	border-radius: 2px;
+}
+.navbar-nav .nav-link.btn-primary:hover{
+	background-color: #FFFFFF;
+	color: #222 !important;
+	
+}
+#hero{
+	background-image: url("../img/animator.jpeg");
+	background-size: cover;
+	background-position: top center;
+	text-align: end;
+	color: #222 !important;
+}
+
+#hero h4{
+	
+	font-size: 18px;
+	margin-bottom: 30px;
+	color: #FFFFFF;
+	text-align: end;
+	padding-right: 14%;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+
+}
+#hero h3{
+	font-size: 18px;
+	margin-bottom: 30px;
+	color: #FFFFFF;
+	text-align: end;
+	padding-right: 20%;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+
+
+}
+
+
+#hero h1{
+	font-size: 90px;
+	margin-bottom: 40px;
+	color: #F39B9A;
+	font-family: 'Rock Salt', cursive;
+	padding-right: 10%;
+	letter-spacing: 15px;
+	
+}
+
+.btn-rosa{
+	background-color: var(--color-rosa);
+	color: #fff;
+	padding: 17px 25px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-right: 19%;
+}
+
+.btn-rosa:hover{
+	background-color: #fff;
+	color: #222;
+}
+.overlay{
+	background-color: rgba(0,0,0,0.60);
+	padding: 15% 0;
+}
+
+.section{
+	padding: 7% 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-titulos);
+}
+
+
+#services{
+	background-color: #fafafa;
+	
+}
+.titulo{
+   font-size: 46px;
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+#services .card{
+	border: 0;
+
+
+}
+#services .card-header{
+	padding: 0px;
+	margin: 0px;
+}
+#services h4{
+	font-size: 18px;
+	align-content: center;
+}
+#services a{
+	font-size: 13px;
+}
+#services a:hover{
+	color: var(--color-titulos);
+	text-decoration: none;
+}
+#services a::before{
+	font-family: 'Line Awesome Free';
+	font-weight: 600;
+}
+
+.card-body{
+	text-align: center;
+}
+
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
+
+.about img{
+	height: auto;
+	width: 400px;
+	border-radius: 10px;
+}
+
+.about-text {
+	width: 550px;
+}
+
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.about-text h2{
+	color: #FFFFFF;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+
+.about-text h5{
+	color: #F39B9A;
+	letter-spacing: 1px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	
+}
+
+.about-text p{
+	color: #F8F8F8;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+}
+
+button{
+	
+    background-color: var(--color-rosa);
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1px;
+	border: 0px;
+	margin-left: 33%;
+	
+}
+
+button:hover{
+	background-color: #FFFFFF;
+	color: #222;
+}
+
+img{
+	max-width: 100%;
+}
+
+.gallery-title{
+	font-size: 46px;
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.gallery img{
+	background-color: #fafafa;
+	padding: 15px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3)
+}
+.gallery{
+	background-color: #fafafa;
+	padding: 80px 80px;
+	 
+}
+
+#contact-box {
+	padding-left: 7%;
+	padding-right: 7%
+}
+
+
+footer{
+	background-color: #191919;
+	color: var(--color-rosa);
+	padding: 15px 0;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
